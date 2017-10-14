@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Title -->
+    <title>Comment App</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+          <div class="form-group">
+            <h1>Leave a comment</h1>
+          </div>
+          <form id = "form">
+          <div class="form-left">
+               <img src="http://sahrzad.net/blog/wp-content/uploads/2016/05/messages-mac-icon-100638468-large.png">
+           </div>
+           <div class="form-right">
+              <img src="http://jennstrends.com/wp-content/uploads/2013/10/bad-profile-pic-2.jpeg" id="profile">
+              </div>
+           <div class="form-group">
+            <input id="username" class="form-control" placeholder="Username">
+          </div>
+          <div class="form-group">
+            <input id="comment" class="form-control" placeholder="Write a comment...">
+          </div>
+          <div class="form-group">
+            <button type="button" onclick="app()" class="btn btn-primary btn-lg">Add Comment</button>
+          </div>
+          </form>
+        <div>
+          <ul id="commentList" class="list-group">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
+
+
